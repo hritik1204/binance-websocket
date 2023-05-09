@@ -1,0 +1,83 @@
+.current-value {
+  margin-top: 79px;
+  margin-left: 44px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.value-p {
+  width: 96px;
+  height: 21px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  text-align: right;
+
+  color: #c5c5c5;
+}
+
+.amount-p {
+  width: 75px;
+  height: 36px;
+  margin-right: 29px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: right;
+  white-space: nowrap;
+
+  color: #627eea;
+}
+
+.coin {
+  margin-top: 25px;
+  margin-left: 44px;
+  width: 85%;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #1c1731;
+  border-radius: 10px;
+}
+
+.coin-p {
+  margin-left: 5px;
+  width: 77px;
+  height: 24px;
+
+  white-space: nowrap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.coin div img {
+  margin-left: 15px;
+  width: 25px;
+  height: 25px;
+
+  border-radius: 150px;
+}
+
+.coin div {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+.btn-buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+
+  margin: 50px 0px 0px 41px;
+  width: 85%;
+  height: 50px;
+  background: linear-gradient(94.37deg, #3387d5 -5.94%, #7a06c9 115.34%);
+  border: none;
+  border-radius: 30px;
+
+  cursor: pointer;
+}
+
+.btn-buy p {
+  width: 35px;
+  height: 27px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
